@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a278cb9e-ec19-4ec8-b12a-7894c53c74b9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
-    </list>
+    <list default="true" id="a278cb9e-ec19-4ec8-b12a-7894c53c74b9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +25,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "gh-pages",
     "last_opened_file_path": "/Users/huangtenghao/git/FoodPuzzle_website",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -54,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1738866692120</updated>
-      <workItem from="1738866693761" duration="1188000" />
+      <workItem from="1738866693761" duration="1309000" />
     </task>
     <servers />
   </component>
