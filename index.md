@@ -45,7 +45,7 @@ data: "https://github.com/tenghaohuang/FoodPuzzle"
 </div>
 
 <hr />
-
+---
 <h2>Introduction</h2>
 <p>
   The burgeoning demand for novel and appealing
@@ -84,21 +84,21 @@ data: "https://github.com/tenghaohuang/FoodPuzzle"
   a significant barrier: the absence of high-quality,
   domain-specific datasets.
 </p>
-
+---
 <h2>Objective</h2>
 <ol>
   <li><strong>Define Flavor Profile Sourcing</strong> as a novel LLM agent problem in flavor science.</li>
   <li><strong>Introduce FOODPUZZLE</strong>, a benchmark of 978 food items and 1,766 flavor molecules.</li>
   <li><strong>Develop a Scientific Agent</strong> integrating in-context learning & retrieval-augmented techniques.</li>
 </ol>
-
+---
 <h2>Key Ideas</h2>
 <ul>
     <li><strong>Scientific Agent</strong>: Combines in-context learning and retrieval from scholarly articles to provide evidence-based reasoning.</li>
 </ul>
 
 <p style="text-align:center;">
-  <img src="/FoodPuzzle_website/static/image/pipeline.jpg" alt="" style="max-width: 60%;"/>
+  <img src="/FoodPuzzle_website/static/image/pipeline.jpg" alt="" style="max-width: 85%;"/>
 </p>
 <p style="text-align:center;"><em>Figure 1: An overview of the Scientific Agent pipeline.</em></p>
 
@@ -113,7 +113,7 @@ data: "https://github.com/tenghaohuang/FoodPuzzle"
     <strong>Scope</strong>: 978 foods mapped to 1,766 flavor molecules, allowing complex, realistic flavor prediction tasks.
   </li>
 <p style="text-align:center;">
-  <img src="/FoodPuzzle_website/static/image/fs_categorization.jpg" alt="" style="max-width: 60%;"/>
+  <img src="/FoodPuzzle_website/static/image/fs_categorization.jpg" alt="" style="max-width: 85%;"/>
 </p>
 <p style="text-align:center;"><em>Figure 2: Example of food and flavor molecule connections in FOODPUZZLE.</em></p>
 
