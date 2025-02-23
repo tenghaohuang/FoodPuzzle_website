@@ -98,21 +98,67 @@ data: "https://github.com/tenghaohuang/FoodPuzzle"
 </ul>
 
 <p style="text-align:center;">
-  <img src="/static/image/fs_categorization.jpg" alt="" style="max-width: 60%;"/>
+  <img src="/static/image/pipeline.jpg" alt="" style="max-width: 60%;"/>
 </p>
-<p style="text-align:center;"><em>Figure 1: Example of food and flavor molecule connections in FOODPUZZLE.</em></p>
+<p style="text-align:center;"><em>Figure 1: An overview of the Scientific Agent pipeline.</em></p>
+
+---
 
 <h2>Dataset: FOODPUZZLE</h2>
 <ul>
-  <li><strong>Source</strong>: Built upon <em>FlavorDB</em> (Garg et al., 2018).</li>
-  <li><strong>Scope</strong>: 978 foods mapped to 1,766 flavor molecules, allowing complex, realistic flavor prediction tasks.</li>
-  <li><strong>Tasks</strong>:
+  <li>
+    <strong>Source</strong>: Built upon <em>FlavorDB</em> (Garg et al., 2018).
+  </li>
+  <li>
+    <strong>Scope</strong>: 978 foods mapped to 1,766 flavor molecules, allowing complex, realistic flavor prediction tasks.
+  </li>
+<p style="text-align:center;">
+  <img src="/static/image/fs_categorization.jpg" alt="" style="max-width: 60%;"/>
+</p>
+<p style="text-align:center;"><em>Figure 2: Example of food and flavor molecule connections in FOODPUZZLE.</em></p>
+
+  <li>
+    <strong>Tasks</strong>:
     <ol>
-      <li><strong>Molecular Food Prediction (MFP)</strong>: Predict the food or food category from flavor molecules.</li>
-      <li><strong>Molecular Profile Completion (MPC)</strong>: Identify missing molecules in a partially known flavor profile of a target food.</li>
+      <li>
+        <strong>Molecular Food Prediction (MFP)</strong>: Predict the food or food category from flavor molecules.
+      </li>
+      <li>
+        <strong>Molecular Profile Completion (MPC)</strong>: Identify missing molecules in a partially known flavor profile of a target food.
+        <pre>
+### Sample MPC task:)
+{
+  "id": 0,
+  "task": "MPC",
+  "known_molecules": [
+    "L-arginine",
+    "3-Methylindole",
+    "2,5-Dimethylpyrazine",
+    "4-Methyl-2-pentanone",
+    "2-Methylbutyraldehyde",
+    "Styrene",
+    "Methyl butyrate",
+    "1-Octen-3-Ol",
+    "3-(Methylthio)propionaldehyde",
+    "..."
+  ],
+  "target_food": "Egg",
+  "missing_molecules": [
+    "Diethyl sulfide",
+    "lactic acid",
+    "2-Pentylfuran",
+    "..."
+  ]
+}
+        </pre>
+      </li>
     </ol>
   </li>
 </ul>
+
+---
+
+
 
 <h2>Significance</h2>
 <ol>
