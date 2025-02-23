@@ -188,6 +188,13 @@ data: "https://github.com/tenghaohuang/FoodPuzzle"
   for further AI-driven explorations in complex scientific domains beyond flavor science.
 </p>
 ---
+<div style="display: flex; justify-content: center; align-items: center;">
+  <img src="/FoodPuzzle_website/static/image/mfp_improve.png" alt="" style="max-width: 45%; margin: 10px;" />
+  <img src="/FoodPuzzle_website/static/image/MPC_improve.png" alt="" style="max-width: 45%; margin: 10px;" />
+</div>
+<p style="text-align:center;"><em>Figure 3: Performance comparisons across different methods.</em></p>
+
+---
 <h2>Citation</h2>
 <pre>
 @misc{huang2024foodpuzzle,
