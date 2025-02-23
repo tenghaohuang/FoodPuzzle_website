@@ -45,7 +45,6 @@ data: "https://github.com/tenghaohuang/FoodPuzzle"
 </div>
 
 <hr />
----
 <h2>Introduction</h2>
 <p>
   The burgeoning demand for novel and appealing
@@ -140,7 +139,7 @@ data: "https://github.com/tenghaohuang/FoodPuzzle"
   <li><strong>Grounded Hypotheses</strong>: Enhances reliability with retrieval-augmented, evidence-based outputs.</li>
   <li><strong>Broad Applicability</strong>: Demonstrates how advanced AI can tackle other specialized scientific tasks.</li>
 </ol>
-
+---
 <h2>Table: Comparison of Approaches</h2>
 <table style="width:100%; border-collapse: collapse; text-align: left;">
   <thead>
@@ -178,7 +177,7 @@ data: "https://github.com/tenghaohuang/FoodPuzzle"
     </tr>
   </tbody>
 </table>
-
+---
 <h2>Conclusion</h2>
 <p>
   Our study highlights the transformative potential of LLM agents in flavor science. By defining
@@ -188,7 +187,7 @@ data: "https://github.com/tenghaohuang/FoodPuzzle"
   substantiated results. This sets a strong precedent
   for further AI-driven explorations in complex scientific domains beyond flavor science.
 </p>
-
+---
 <h2>Citation</h2>
 <pre>
 @misc{huang2024foodpuzzle,
