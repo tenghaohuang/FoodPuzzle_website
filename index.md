@@ -94,15 +94,13 @@ data: "https://github.com/tenghaohuang/FoodPuzzle"
 
 <h2>Key Ideas</h2>
 <ul>
-  <li><strong>Molecular Food Prediction (MFP)</strong>: Predict the food or food category from flavor molecules.</li>
-  <li><strong>Molecular Profile Completion (MPC)</strong>: Identify missing molecules in a partially known flavor profile of a target food.</li>
-  <li><strong>Scientific Agent</strong>: Combines in-context learning and retrieval from scholarly articles to provide evidence-based reasoning.</li>
+    <li><strong>Scientific Agent</strong>: Combines in-context learning and retrieval from scholarly articles to provide evidence-based reasoning.</li>
 </ul>
 
 <p style="text-align:center;">
-  <img src="/static/images/foodpuzzle_molecules.png" alt="Example of flavor molecule connections" style="max-width: 60%;"/>
+  <img src="/static/image/fs_categorization.jpg" alt="" style="max-width: 60%;"/>
 </p>
-<p style="text-align:center;"><em>Figure 1: Diverse flavor molecules and their connections in FOODPUZZLE.</em></p>
+<p style="text-align:center;"><em>Figure 1: Example of food and flavor molecule connections in FOODPUZZLE.</em></p>
 
 <h2>Dataset: FOODPUZZLE</h2>
 <ul>
@@ -110,8 +108,8 @@ data: "https://github.com/tenghaohuang/FoodPuzzle"
   <li><strong>Scope</strong>: 978 foods mapped to 1,766 flavor molecules, allowing complex, realistic flavor prediction tasks.</li>
   <li><strong>Tasks</strong>:
     <ol>
-      <li>Molecular Food Prediction (MFP)</li>
-      <li>Molecular Profile Completion (MPC)</li>
+      <li><strong>Molecular Food Prediction (MFP)</strong>: Predict the food or food category from flavor molecules.</li>
+      <li><strong>Molecular Profile Completion (MPC)</strong>: Identify missing molecules in a partially known flavor profile of a target food.</li>
     </ol>
   </li>
 </ul>
