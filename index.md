@@ -15,10 +15,9 @@ authors:
 affiliations:
   - "¹University of Southern California"
   - "²University of California, Davis"
-paper: ""
-video: ""
-code: ""
-data: ""
+paper: "https://arxiv.org/abs/2409.12832"
+code: "https://github.com/tenghaohuang/FoodPuzzle"
+data: "https://github.com/tenghaohuang/FoodPuzzle"
 ---
 
 <!-- Using HTML to center the abstract section -->
@@ -46,8 +45,6 @@ data: ""
 </div>
 
 <hr />
-
-<p><strong>Note:</strong> This is a Jekyll-based template. You can further customize styling, add a table of contents, or modify layout as desired.</p>
 
 <h2>Introduction</h2>
 <p>
